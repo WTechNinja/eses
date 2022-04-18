@@ -27,21 +27,21 @@ dia_imgcop_butt="Copy image"
 dia_sccop_butt="Copy scan result"
 
 # grim save dir
-sv_dir="/home/$USER/Pictures/"
+sv_dir="/home/$USER/Pictures/Screenshots/"
 
 # grim file name
 sv_name="$(date)"
 
 ## Overriding Config file (will auto make them)
 
-	con_dir=/home/$USER/.config/eses
-	con_file=/home/$USER/.config/eses/config
+	con_dir=/home/$USER/.config/eses-w
+	con_file=/home/$USER/.config/eses-w/config
 
 	if [ -d "$con_dir" ]; then
-		test -f "$con_file" || sed -n "5, 33p" eses > $con_file
+		test -f "$con_file" || sed -n "5, 33p" eses-w > $con_file
 	else
 		mkdir $con_dir
-		sed -n "5, 33p" eses > $con_file
+		sed -n "5, 33p" eses-w > $con_file
 	fi
 
 	source $con_file
