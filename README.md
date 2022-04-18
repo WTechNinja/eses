@@ -20,7 +20,7 @@ It should be noted that the cursor isn't included in screenshots.
 		* if there's a QR Code detected in the pictures, it will try to scan it
 			* if it fails, it will leave the screenshot copied on the clipboard
 			* if it succeeds, the user will be prompted to copy either the image or scanned result
-			 ![Dialog](https://github.com/WTechNinja/eses/blob/main/me%20when%20dialog.png?raw=true)
+			 ![Dialog](https://github.com/WTechNinja/eses/blob/eses-w/me%20when%20dialog.png?raw=true)
 			 
 ### Configuration
 All of the default configuration is in the beginning of the `eses-w` script with plenty of comments, and it will likely change.
