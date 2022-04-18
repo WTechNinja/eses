@@ -93,6 +93,7 @@ write the entire thing
 save
 put it in random folder
 make it executable
+profit
 ```
 
 #### Building the man page
@@ -113,8 +114,8 @@ After that, you can use `man eses-w` to view the man page.
 #### Config File
 upon first run, the config file will be generated under `/home/$USER/.config/eses-w/`
 
-script will automatically generate the directory and config file with default configuration inside if theres no config directory and/or config file. no worry i get you 
+The script will automatically generate the directory and config file with default configuration inside if theres no config directory and/or config file. no worry i get you 
 
 
 ## Contribute
-I'm open to contributions, but you should contribute upstream at [kaonkaon/eses](https://github.com/kaonkaon/eses) Because I took the vast majority oft his code from him. (ofc he's always welcome to copy things back from here anyway, but yeah)
+I'm open to contributions, but you should contribute upstream at [kaonkaon/eses](https://github.com/kaonkaon/eses) Because I took the vast majority of this code from him. (ofc he's always welcome to copy things back from here anyway, but yeah)
