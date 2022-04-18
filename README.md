@@ -20,7 +20,7 @@ It should be noted that the cursor isn't included in screenshots.
 		* if there's a QR Code detected in the pictures, it will try to scan it
 			* if it fails, it will leave the screenshot copied on the clipboard
 			* if it succeeds, the user will be prompted to copy either the image or scanned result
-			 ![Dialog](https://github.com/WTechNinja/eses-w/blob/main/me%20when%20dialog.png?raw=true)
+			 ![Dialog](https://github.com/WTechNinja/eses/blob/main/me%20when%20dialog.png?raw=true)
 			 
 ### Configuration
 All of the default configuration is in the beginning of the `eses-w` script with plenty of comments, and it will likely change.
@@ -74,15 +74,16 @@ just copy it to executable path and make it executable and boom
 ##### Using Clone (on /usr/local/bin)
 ```
 cd /tmp
-git clone https://github.com/WTechNinja/eses-w.git
-cd eses-w
+git clone https://github.com/WTechNinja/eses.git
+cd eses
+git checkout eses-w
 sudo mv eses-w /usr/local/bin/
 chmod +x /usr/local/bin/eses-w
 ```
 ##### Using WGET (on /usr/local/bin)
 > man page not included, download it yourself
 ```
-wget https://raw.githubusercontent.com/WTechNinja/eses-w/main/eses-w
+wget https://raw.githubusercontent.com/WTechNinja/eses/eses-w/eses-w
 sudo mv eses-w /usr/local/bin/
 chmod +x /usr/local/bin/eses-w
 ```
