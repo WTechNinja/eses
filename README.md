@@ -61,9 +61,9 @@ sv_name="$(date)"
 ### Dependencies
 ```
 * zenity
-* maim
+* grim
 * imagemagick
-* xclip
+* wl-clipboard
 * zbarimg
 * notify-send
 ```
