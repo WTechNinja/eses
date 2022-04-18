@@ -1,17 +1,16 @@
-% ESES(1) eses 
-% WTechNinja
+% ESES-W(1) eses-w 
+% WTechNinja, kaonkaon
 % April 2022
 
 # NAME
-eses - Screenshot scripts with QR Scanner feature
+eses-w - Screenshot script for wayland, with QR Scanner feature
 
 # SYNOPSIS
-**eses** [OPTION]
+**eses-w** [OPTION]
 
 	
 # DESCRIPTION
-Basic screenshot script with QR Scanner feature (yes i wrote this twice). Good for making a keybind for screenshots (you can use another decent apps/scripts, really)
-In the **--select-cp** mode, if there's a QR Code detected in the picture, it will try to scan it. If it fails, it will leave the screenshot copied on the clipboard, if it succeeds it will prompt to ask if you want the QR Code result on your clipboard.
+Basic screenshot script for wayland, with QR Scanner feature. Good for screenshot keybindings. It should be noted that the cursor isn't included in screenshots.
 Has four different modes, selectable via options.
 
 # OPTIONS
@@ -28,12 +27,12 @@ Has four different modes, selectable via options.
 : Screenshot selected area / selected window, and put it on clipboard, then run QR code magic. 
 
 # EXAMPLES
-**eses --select_cp**
+**eses-w --select_cp**
 : Screenshot selected area to clipboard, then run QR code magic.
 
-**eses --whole**
+**eses-w --whole**
 : Screenshot whole screen, and save as file.
 
 # BUGS
-https://github.com/kaonkaon/eses
+https://github.com/WTechNinja/eses-w
 

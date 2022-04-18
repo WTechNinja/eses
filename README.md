@@ -20,7 +20,7 @@ It should be noted that the cursor isn't included in screenshots.
 		* if there's a QR Code detected in the pictures, it will try to scan it
 			* if it fails, it will leave the screenshot copied on the clipboard
 			* if it succeeds, the user will be prompted to copy either the image or scanned result
-			 ![Dialog](https://github.com/kaonkaon/eses/blob/main/me%20when%20dialog.png?raw=true)
+			 ![Dialog](https://github.com/WTechNinja/eses-w/blob/main/me%20when%20dialog.png?raw=true)
 			 
 ### Configuration
 All of the default configuration is in the beginning of the `eses-w` script with plenty of comments, and it will likely change.
@@ -106,7 +106,9 @@ gzip eses-w.1 -c > eses-w.1.gz
 ```
 then the generated `eses-w.1.gz` file can be installed in `/usr/local/man/man1`  
 ```
-sudo mv eses-w.1.gz /usr/local/man/man1/eses-w.1.gz
+# Make /usr/local/man/man1 if it doesn't already exist
+sudo mkdir -p /usr/local/man/man1
+sudo mv eses-w.1.gz /usr/local/man/man1/
 sudo mandb
 ```
 After that, you can use `man eses-w` to view the man page.
