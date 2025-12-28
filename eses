@@ -140,6 +140,14 @@ elif [ $whatDis = "1" ]; then
     maim --hidecursor --select "$sv_dir$sv_name"
     notify-send -a eses "$succ_noTit" "$succ_noTex"
     ;;
+  --window)
+    maim --window $(xdotool getactivewindow) "$sv_dir$sv_name"
+    notify-send -a eses "$succ_noTit" "$succ_noTex"
+    ;;
+  --window_cp)
+    maim --window $(xdotool getactivewindow) | xclip -selection clipboard -t image/png
+    notify-send -a eses "$succ_noTit" "$succ_noTex_cp"
+    ;;
   --whole)
     maim --hidecursor "$sv_dir$sv_name"
     notify-send -a eses "$succ_noTit" "$succ_noTex"
