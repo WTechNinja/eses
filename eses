@@ -94,7 +94,7 @@ if [ $whatDis = "0" ]; then
     ;;
   --window_cp)
     grim -g "$(swaymsg -t get_tree | jq -r '.. | select(.pid? and .visible?) | .rect | "\(.x),\(.y) \(.width)x\(.height) "' | slurp -o)" - | wl-copy -t image/png
-    notify-send -a eses "$succ_noTit" "$succ_noTex"
+    notify-send -a eses "$succ_noTit" "$succ_noTex_cp"
     ;;
   --whole)
     grim "$sv_dir$sv_name"
