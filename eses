@@ -69,7 +69,9 @@ function printHelp {
 Screenshot script with QR Scanner feature
 	 
 There are four modes, selectable by the below options:
-  --select        Screenshot selected area / selected window, and save it as a file
+  --select        Screenshot selected area, and save it as a file
+  --window        Screenshot selected window, and save it as a file
+  --window_cp     Screenshot selected window, and put it on the clipboard without saving
   --whole         Screenshot whole screen and save it as a file in your desired folder
   --whole_cp      Screenshot whole screen and put it on clipboard without saving
   --select_cp     Screenshot selected area / selected window, and put it on clipboard, then run QR code magic.
